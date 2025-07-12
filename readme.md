@@ -53,6 +53,7 @@ Test
 Move to global and make avaliable anywhere
 
 - Linux
+
   `sudo mv cli-pix /usr/local/bin/cli-pix`
 
 - Mac
@@ -62,6 +63,7 @@ Move to global and make avaliable anywhere
 `chmod +x /usr/local/bin/cli-pix`
 
 - Windows
+
   `go build -o cli-pix.exe .`
 
 `Move-Item -Path cli-pix.exe -Destination "$env:USERPROFILE\AppData\Local\Microsoft\WindowsApps"`
